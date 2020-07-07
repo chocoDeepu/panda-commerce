@@ -1,3 +1,6 @@
+.container{
+    margin-bottom: 100px;
+}
 .banner-color{
     background-color: #fceae8;
 }
@@ -14,4 +17,39 @@
     border-radius: 8px;
     padding: 8px 25px;
     cursor: pointer;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+.cat1{
+    background-image: linear-gradient( rgba(255, 255, 0, 0.877) 0%, orange 100%);
+}
+.cat2{
+    background-image: linear-gradient(lightpink 0%, #FF136F 100%);
+}
+.cat3{
+    background-image: linear-gradient( lightblue 0%, blue 100%);
+}
+.categories img{
+    width: 100px;
+}
+.categories h1{
+    color: white;
+}
+.card{
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+#contact-us{
+    height: 300px;
+}
+#contact-us h6{
+    color: gray;
+}
+footer{
+    text-align: center;
 }
