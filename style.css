@@ -17,6 +17,7 @@
     border-radius: 8px;
     padding: 8px 25px;
     cursor: pointer;
+    outline: 0;
 }
 .cat1, .cat2, .cat3{
     padding: 10px 30px;
